@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h6 {
+  margin: 2px;
+}
+#Derecho {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+#Derecho h3 {
+  margin-bottom: 0;
+}
+#Derecho h4 {
+  margin-top: 0px;
+  text-align: right;
+}
+
+.renglon {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 15px;
+}
