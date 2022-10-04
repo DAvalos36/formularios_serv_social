@@ -39,39 +39,39 @@
     </p>
     <div class="renglon">
       <strong>Nombre:</strong>
-      David Octavio Avalos Loya
+      <?php echo $nombre; ?>
       <strong>N°Control:</strong>
-      19410586
+      <?php echo $noControl; ?>
     </div>
     <div class="renglon">
       <strong>Docmicilio:</strong>
-      Septima #106, Col. Altavista
+      <?php echo $domicilio; ?>
       <strong>Teléfono:</strong>
-      6271336824
+      <?php echo $telefono; ?>
     </div>
     <div class="renglon">
       <strong>Carrera:</strong>
-      Ingeniería en Sistemas Computacionales
+      <?php echo $carrera; ?>
       <strong>Semestre::</strong>
-      7°
+      <?php echo $semestre ?>°
     </div>
     <div class="renglon">
       <strong>Dependencia:</strong>
-      Instituto Tecnológico de Parral
+      <?php echo $dependencia; ?>
     </div>
     <div class="renglon">
       <strong>DOMICILIO DE LA DEPENDENCIA:</strong>
-      Instituto Tecnológico de Parral
+      <?php echo $domicilioDep; ?>
     </div>
     <div class="renglon">
       <strong>RESPONSABLE DEL PROGRAMA:</strong>
-      Instituto Tecnológico de Parral
+      <?php echo $respPrograma; ?>
     </div>
     <div class="renglon">
       <strong>FECHA DE INICIO:</strong>
-      16/16/16
+      <?php echo $fechaInicio; ?>
       <strong>FECHA DE TERMINACION:</strong>
-      16/16/16
+      <?php echo $fechaTerminacion; ?>
     </div>
     <p>ME COMPROMETO A REALIZAR EL SERVICIO SOCIAL ACATANDO EL REGLAMENTO DEL SISTEMA NACIONAL DE EDUCACIÓN 
       SUPERIOR TECNOLÓGICA Y LLEVARLO A CABO EN EL LUGAR Y PERIODOS MANIFESTADOS, ASÍ COMO A PARTICIPAR CON MIS 
